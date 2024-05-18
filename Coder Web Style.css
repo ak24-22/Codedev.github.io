@@ -165,7 +165,7 @@ button:active {
 }
 
 img + p {
-	color:#0F0;
+	color:hsl(120, 100%, 50%);
 	font-size:2.5rem;
 	padding-top:0.2em;
 	font-family:Leelawadee UI, sans-serif;
@@ -255,7 +255,7 @@ section > h2 {
 
 .Follow_On_SM {
 	display:flex;
-	gap:1em;
+	gap:1em; 
 }
 
 .Follow_On_SM > p {
@@ -265,7 +265,7 @@ section > h2 {
 	margin-top:0.5em;
 }
 
-.SM_Reddit {
+.SM {
 	height:2em;
 	width:2em;
 	position:relative;
@@ -273,12 +273,12 @@ section > h2 {
 	margin:1em;
 }
 
-.SM_Reddit svg{
+.SM img {
 	height:100%;
 	width:100%;
 }
 
-.Reddit_Fill {
+.SM_Fill {
 	position:absolute;
 	top:0em;
 	left:0em;
@@ -288,62 +288,12 @@ section > h2 {
 	transition:opacity 0.5s ease;
 }
 
-.Reddit_Fill:hover {
+.SM_Fill:hover {
 	opacity:1;
 }
 
-.SM_Twitter {
-	height:2em;
-	width:2em;
-	position:relative;
-	cursor:pointer;
-	margin:1em;
-}
-
-.SM_Twitter svg{
-	height:100%;
-	width:100%;
-}
-
-.Twitter_Fill {
-	position:absolute;
-	top:0em;
-	left:0em;
-	bottom:0em;
-	right:0em;
-	opacity:0;
-	transition:opacity 0.5s ease;
-}
-
-.Twitter_Fill:hover {
-	opacity:1;
-}
-
-.SM_Instagram {
-	height:2em;
-	width:2em;
-	position:relative;
-	cursor:pointer;
-	margin:1em;
-}
-
-.SM_Instagram svg{
-	height:100%;
-	width:100%;
-}
-
-.Instagram_Fill {
-	position:absolute;
-	top:0em;
-	left:0em;
-	bottom:0em;
-	right:0em;
-	opacity:0;
-	transition:opacity 0.5s ease;
-}
-
-.Instagram_Fill:hover {
-	opacity:1;
+.SM--Icons {
+	display: flex;
 }
 
 footer > p {

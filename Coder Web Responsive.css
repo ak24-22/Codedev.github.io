@@ -152,24 +152,14 @@
         font-size: 1.46rem;
         align-items: center;
     } 
-    
-    .SM_Reddit {
-        height:.5em;
-        width:.5em;
-        margin: 0 1.5em;
+
+    .Follow_On_SM {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .SM_Twitter {
-        height:.5em;
-        width:.5em;
-        margin: 0 1.5em;
-    }
-    .SM_Instagram {
-        height:.5em;
-        width:.5em;
-        margin: 0 1.5em;
-    }
-    
     footer > p {
         text-align: center;
         margin: 1.5em 0;
