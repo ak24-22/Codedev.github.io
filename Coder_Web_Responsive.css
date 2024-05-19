@@ -35,7 +35,8 @@
     }
 
     li{
-        margin: .44em;
+        margin: .45em;
+        font-size: .8em;
     }
 
     .top li:last-child:last-child {
@@ -43,8 +44,8 @@
     }
     
     .Logo_Image {
-        height:5em;
-        width:22em;
+        height:4em;
+        width:16em;
         margin: auto;
     }
 
@@ -74,9 +75,11 @@
 	}
 
 	.left_col > p {
-		font-size: .9rem;
+        display: block;
+		font-size: .7rem;
         text-align: center;
-        margin: 1em -6.1em;
+        margin: 1em auto;
+        margin-right: 1.1em;
         margin-bottom: 2em;
 	}
 
@@ -145,7 +148,7 @@
         padding:0em;
         cursor:pointer;
         font-family:Leelawadee UI, Verdana, Geneva, sans-serif;
-        font-size: 1rem;
+        font-size: .8rem;
     }
         
     .Follow_On_SM > p{ 
